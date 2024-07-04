@@ -323,7 +323,7 @@ module.exports = {
           })
         )
       );
-      console.log('🚀 Permissions updated');
+      
       const permissionDropStrategy = process.env.PERMISSION_DROP_STRATEGY || 'delete';
       console.warn('⚠️ Permission drop strategy:', permissionDropStrategy);
       // avoid deleting permissions (between v1 and v2)
